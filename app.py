@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Python pyörii Sinisessä Amazonissa! | 15.4.2026 integraation testaus"
+    return "Python pyörii Sinisessä Amazonissa! | 15.4.2026 integraation testaus | 16.4.2026 Demo"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
